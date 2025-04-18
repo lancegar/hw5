@@ -66,7 +66,7 @@ void genWords(std::string& current, int index, std::string floating, const std::
                 int leftoverDashes = 0;
 
                 for(int i = index + 1; i < current.size(); ++i) {
-                    if(current[i] = '-') {
+                    if(current[i] == '-') {
                         leftoverDashes++;
                     }
                 }
